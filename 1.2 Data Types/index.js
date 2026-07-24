@@ -26,5 +26,27 @@ let peoples;
 
 // 7. BigInt, Larger integers
 
+let javaScriptIsFun = true;
+console.log(javaScriptIsFun);
+
+//typeof true
+
+console.log(typeof javaScriptIsFun);
+
+javaScriptIsFun = 'Yes!';
+console.log(typeof javaScriptIsFun);
+
+//Null / undefined type
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 1997;
+console.log(typeof year);
+
+console.log(typeof null);
+
+
 
 
