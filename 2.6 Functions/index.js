@@ -19,4 +19,17 @@ return juice;
 const fruitJuice = fruitProcessor( 5, 3);
 console.log(fruitJuice);
 
+//function calling other functions
 
+function cutFruitPieces(fruit){
+    return fruit * 4;
+}
+function juiceMachine(apples, oranges){
+const applesPieces = cutFruitPieces(apples);
+const orangesPieces = cutFruitPieces(oranges);
+
+const juice = `Juice with ${applesPieces} apples pieces and ${orangesPieces} oranges pieces.`;
+
+return juice;
+}
+console.log(juiceMachine(2, 3));
